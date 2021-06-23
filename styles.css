@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,600&display=swap');
+
 body{
     margin: 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
 }
 
 :root{
@@ -26,14 +30,16 @@ main{
     display: block;
     width: 100%;
     min-height: 20vh;
-    margin: 2.6rem 0rem;
+    margin: 2.4rem 0rem;
     padding: 0.5rem 0.5rem;
+    font-size: large;
 }
 
 #btn-translate{
     background-color: var(--primary-color);
     padding: 1rem 1rem;
     border: none;
+    font-size: large;
 }
 
 .text{
@@ -47,11 +53,12 @@ main{
     min-height: 20vh;
     margin: 1rem 0rem;
     padding: 0.5rem 0.5rem;
+    font-size: large;
 }
 
 .footer{
     background-color: var(--primary-color);
-    margin-top: 2.7rem;
+    margin-top: 2.4rem;
 }
 
 .footer .about{
