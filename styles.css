@@ -3,20 +3,33 @@
 body{
     margin: 0rem;
     font-family: 'Josefin Sans', sans-serif;
+    background-image: url('images/minion-6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 180%;
     overflow: hidden;
 }
 
+
+
 :root{
-    --primary-color: #F2C94C;
-    --black:#333333;
-    --width-break: 600px;
+    --primary-color: #0c457a;
+    --secondary-color:#f5e0;
+    --black:#000000;
+    --white:#FFFFFF;
+    --width-break: 500px;
 }
 
 .navbar h1{
     text-align: center;
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     margin-top: 0rem;
+    cursor: default;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: var(--white);
 }
 
 main{
@@ -26,46 +39,59 @@ main{
 }
 
 #txt-input{
-    border: 1px solid var(--black);
+    border: 2px solid var(--black);
+    background-color: var(--secondary-color);
     display: block;
     width: 100%;
     min-height: 20vh;
-    margin: 2.4rem 0rem;
+    margin: 2rem 0rem;
     padding: 0.5rem 0.5rem;
-    font-size: large;
+    font-size: x-large;
 }
 
 #btn-translate{
     background-color: var(--primary-color);
-    padding: 1rem 1rem;
     border: none;
-    font-size: large;
+    padding: 1rem 1rem;
+    font-size: x-large;
+    cursor: pointer;
+    margin-left: 10rem;
+}
+
+.btn-hover:hover{
+    color: var(--white);
+    transition-delay: 0.1s;
 }
 
 .text{
     margin-top: 1rem;
+    cursor: default;
+    font-size: large;
+    margin-left: 10rem;
 }
 
 #txt-output{
-    border: 1px solid var(--black);
+    border: 2px solid var(--black);
     display: block;
     width: 100%;
     min-height: 20vh;
     margin: 1rem 0rem;
     padding: 0.5rem 0.5rem;
-    font-size: large;
+    font-size: x-large;
 }
 
 .footer{
     background-color: var(--primary-color);
-    margin-top: 2.4rem;
+    margin-top: 2rem;
+    cursor: default;
 }
 
 .footer .about{
     text-align: center;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding-top: 1rem;
+    color: var(--white);
 }
 
 .footer p{
@@ -73,4 +99,6 @@ main{
     max-width: var(--width-break);
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
+    text-align: center;
+    color: var(--white);
 }
